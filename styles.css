@@ -1,0 +1,149 @@
+* {
+    font-family: 'Nunito Sans', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.heading {
+    margin: 1em 0.5em;
+}
+
+.colors-section {
+    border: solid 1px #27272a;
+    margin: 1em 0.5em;
+    padding: 2em 1em;
+}
+
+.fonts-section {
+    border: solid 1px #075985;
+    margin: 1em 0.5em;
+    padding: 2em 1em;
+}
+
+.text-styles-section {
+    border: solid 1px #166534;
+    margin: 1em 0.5em;
+    padding: 2em 1em;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.75rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.color-box {
+    width: 12rem;
+    height: auto;
+    padding: 4px 2px;
+    margin-right: 2px;
+}
+
+.bg-red-500 {
+    background-color: #ef4444;
+}
+
+.bg-emerald-500 {
+    background-color: #10b981;
+}
+
+.bg-violet-500 {
+    background-color: #8b5cf6;
+}
+
+.font-box {
+    width: 28rem;
+    height: auto;
+    padding: 4px 2px;
+    margin-right: 2px;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-label {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-decoration: underline;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    .heading {
+        margin: 1em;
+    }
+    .colors-section {
+        margin: 1em;
+    }
+    .fonts-section {
+        margin: 1em;
+    }
+    .text-styles-section {
+        margin: 1em;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .color-box {
+        width: 8rem;
+    }
+    .font-box {
+        width: 20rem;
+    }
+    .font-label {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
